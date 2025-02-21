@@ -15,8 +15,7 @@ setup(
     long_description = long_desc,
     long_description_content_type = 'text/markdown',
     packages = find_packages(),
-    install_requires = ['pandas', 'numpy', 'matplotlib.pyplot', 'pathlib'],
-    # py_modules = ['messy_tools1']
+    install_requires = ['pandas', 'numpy', 'matplotlib.pyplot', 'pathlib']
 )
 """
 Checking dist/messy_tools1-0.0.1.macosx-10.9-universal2.tar.gz: ERROR    

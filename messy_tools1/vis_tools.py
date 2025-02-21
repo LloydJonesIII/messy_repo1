@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-def _import_file(file):
+
+def import_file(file):
     """
     Imports the stated file 
     allows for the function and .py file to be run from any directory

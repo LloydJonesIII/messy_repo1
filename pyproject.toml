@@ -7,11 +7,8 @@ name = "messy_repo1"
 version = "0.0.1"
 description = "A basic Python package called messy_repo1"
 readme = "README.md"
-license = { file = "LICENSE" }
+license = {file = 'LICENSE'}
 authors = [
     { name = "Lloyd W Jones III", email = "lloydjonesx3@gmail.com" }
 ]
-dependencies = ['pandas', 'numpy', 'matplotlib.pyplot', 'pathlib']
-
-[tool.setuptools]
-py_modules = []
+dependencies = ['pandas', 'numpy', 'matplotlib', 'pathlib']

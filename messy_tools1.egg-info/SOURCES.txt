@@ -1,9 +1,0 @@
-LICENSE.txt
-README.md
-pyproject.toml
-setup.py
-messy_tools1.egg-info/PKG-INFO
-messy_tools1.egg-info/SOURCES.txt
-messy_tools1.egg-info/dependency_links.txt
-messy_tools1.egg-info/requires.txt
-messy_tools1.egg-info/top_level.txt
