@@ -4,11 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "messy_repo1"
-version = "0.1.0"
+version = "0.0.1"
 description = "A basic Python package called messy_repo1"
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Lloyd W Jones III", email = "lloydjonesx3@gmail.com" }
 ]
-dependencies = []
+dependencies = ['pandas', 'numpy', 'matplotlib.pyplot', 'pathlib']
+
+[tool.setuptools]
+py_modules = []
