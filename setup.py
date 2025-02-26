@@ -7,7 +7,7 @@ with open (path.join(work_dir, 'README.md'), encoding='utf-8') as f: long_desc =
 
 setup(
     name = 'messy_tools1',
-    version = '0.0.1',
+    version = '0.0.5',
     # URL if applicable
     author = 'Lloyd W Jones III',
     author_email = 'lloydjonesx3@gmail.com',

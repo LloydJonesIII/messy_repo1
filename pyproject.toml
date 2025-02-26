@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "messy_repo1"
-version = "0.0.1"
+version = "0.0.5"
 description = "A basic Python package called messy_repo1"
 readme = "README.md"
 license = {file = 'LICENSE'}

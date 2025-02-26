@@ -31,8 +31,8 @@ def basic_stats(data: pd.Series):
     std_value = data.std()
     
     # Display results with a clean output
-    print(f"Mean of {data.columns}: {mean_value}")
-    print(f"Standard deviation of {data.columns}: {std_value}")
+    print(f"Mean of {data.name}: {mean_value}")
+    print(f"Standard deviation of {data.name}: {std_value}")
     return mean_value, std_value
 
 def display_graph(data: pd.DataFrame, dimensions: list, column_names: list):

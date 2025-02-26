@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: messy_repo1
-Version: 0.0.1
+Version: 0.0.5
 Summary: A basic Python package called messy_repo1
 Author: Lloyd W Jones III
 Author-email: Lloyd W Jones III <lloydjonesx3@gmail.com>
@@ -29,7 +29,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: pandas
 Requires-Dist: numpy
-Requires-Dist: matplotlib.pyplot
+Requires-Dist: matplotlib
 Requires-Dist: pathlib
 
 # Basic Data Visualization & data processing Package
